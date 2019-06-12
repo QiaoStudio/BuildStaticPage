@@ -1,0 +1,11 @@
+{
+  "name": "realnext",
+  "version": "1.0.0",
+  "description": "This is for gulp project !",
+  "devDependencies": {
+    "gulp-clean": "^0.3.2",
+    "gulp-compass": "^2.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4"
+  }
+}

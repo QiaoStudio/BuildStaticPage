@@ -1,0 +1,78 @@
+<div class="footer">
+	<div class="footer-head">
+		<div class="glow">
+			<i class="glow-point"></i>
+			<p class="glow-tips">Wispe Brouwerij</p>
+		</div>
+		<div class="global-width-02">
+			<div class="email-and-link">
+				<div class="one-half">
+					<div class="email">
+						<p>Blijf op de hoogte en meld je aan voor de nieuwsbrief.</p>
+						<form class="form-wrapper" action="" method="post" onsubmit="return search()" target="_blank">
+			            	<div class="form-col">
+			               		<input class="control-input error" type="text" id="searchText" name="kw" autocomplete="off" value="" placeholder="Vul hier uw e-mailadres in" />
+			               		<div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+							</div>
+							<div class="form-col">
+			                	<button class="btn btn-white">aanmelden</button>
+			                </div>
+			            </form>
+					</div>
+				</div>
+				<div class="one-half">
+					<div class="link">
+						<a class="icon-link-01" href="##"></a>
+						<a class="icon-link-02" href="##"></a>
+						<a class="icon-link-03" href="##"></a>
+						<a class="icon-link-04" href="##"></a>
+						<a class="icon-link-05" href="##"></a>
+					</div>
+				</div>
+			</div>
+			<div class="one-half">
+				<ul class="menu hidden-mobile">
+					<li class="one-half">
+						<a href="##">Home</a>
+						<a href="##">Bieren</a>
+						<a href="##">Ons verhaal</a>
+					</li>
+					<li class="one-half">
+						<a href="##">Brouwerij</a>
+						<a href="##">Shop</a>
+						<a href="##">Contact</a>
+					</li>
+				</ul>
+				<div class="info">
+					<dl>
+						<dt>Wispe Brouwerij</dt>
+						<dd>Straatnaam 12 1789 AA Weesp</dd>
+						<dd>E. <a href="##">info@wispe.nl</a></dd>
+						<dd>I. <a href="##">www.wispe.nl</a></dd>
+						<dd>T. <a href="##">020-7715827</a></dd>
+						<dd>F. <a href="##">020-7715827</a></dd>
+					</dl>
+					<dl>
+						<dt>KvK</dt>
+						<dd>232132892</dd>
+					</dl>
+					<dl>
+						<dt>BTW</dt>
+						<dd>232132892</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="global-width-02">
+			<ul>
+				<li>© 2016 Wispe Brouwerij</li>
+				<li>Disclaime</li>
+				<li>Algemene Voorwaarden</li>
+			</ul>
+			<a class="logo" href="/"></a>
+			<p class="bottom-icon"><span>Drink anders, denk Wispe</span><i></i></p>
+		</div>	
+	</div>
+</div>

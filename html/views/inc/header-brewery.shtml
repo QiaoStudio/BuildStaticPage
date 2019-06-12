@@ -1,0 +1,80 @@
+<div class="header">
+	<div class="header-main">
+		<div class="global-width-01">
+			<div class="nav global-width-02">
+				<a href="javascript:;" class="hamburger-button" js-mobile-button>
+			      <div class="hamburger-wrapper">
+			        <span class="line line-1"></span>
+			        <span class="line line-2"></span>
+			        <span class="line line-3"></span>
+			      </div>
+			    </a>
+				<div class="nav-menu">
+					<a href="01-home.shtml">Home</a>
+					<a href="02-bieren.shtml">Bieren</a>
+					<a href="03-our-story.shtml">Ons verhaal</a>
+				</div>
+				<a class="logo" href="/"></a>
+				<div class="nav-menu">
+					<a data-show-nav="1" class="active" href="04-brewery.shtml">Brouwerij</a>
+					<a data-show-nav="2" href="##">Shop</a>
+					<a href="06-contact.shtml">Contact</a>
+				</div>
+			</div>
+			<div class="language-switcher hidden-mobile">
+				<a class="active" href="javascript:;">nl</a>
+				<a href="javascript:;">en</a>
+			</div>
+		</div>
+	</div>
+	<div class="sub-nav hidden-mobile">
+		<div class="nav-menu" data-show-nav-menu="1">
+			<a href="##">Proeflokaal</a>
+			<a href="##">DISTILLEERDERIJ</a>
+			<a href="##">Agenda</a>
+		</div>
+		<div class="nav-menu" data-show-nav-menu="2">
+			<a href="##">Alles</a>
+			<a href="##">Bieren</a>
+			<a href="##">Kleding</a>
+			<a href="##">Overig</a>
+		</div>
+	</div>
+	<div class="nav-mobile visible-m">
+		<ul>
+			<li>
+				<a class="active" href="01-home.shtml">Home</a>
+			</li>
+			<li>
+				<a href="02-bieren.shtml">Bieren</a>
+			</li>
+			<li>
+				<a href="03-our-story.shtml">Ons verhaal</a>
+			</li>
+			<li>
+				<a data-show-nav="1" class="active" href="04-brewery.shtml">Brouwerij</a>
+				<ul data-show-nav-menu="1">
+					<li><a href="##">Proeflokaal</a></li>
+					<li><a href="##">DISTILLEERDERIJ</a></li>
+					<li><a href="##">Agenda</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="##">Shop</a>
+				<ul>
+					<li><a href="##">Alles</a></li>
+					<li><a href="##">Bieren</a></li>
+					<li><a href="##">Kleding</a></li>
+					<li><a href="##">Overig</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="06-contact.shtml">Contact</a>
+			</li>
+		</ul>
+		<div class="language-switcher">
+			<a class="active" href="javascript:;">nl</a>
+			<a href="javascript:;">en</a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,230 @@
+button{
+    background:none;
+    border-color:$color-white;
+    color:$color-white;
+}
+.form-wrapper{
+    @extend .clearfix;
+    position:relative;
+    .title{
+        font-size: pxToRem(19);
+        font-family: "FuturaStd-Heavy";
+        margin-bottom: pxToRem(10);
+    }
+    label{
+        display: block;
+        margin-bottom: pxToRem(7);
+        font-family: "FuturaStd-Book";
+        font-size: pxToRem(16);
+    }
+    .form-row{
+        clear: both;
+    }
+    .form-col{
+        text-align: left;
+    }
+    .form-row,
+    .form-col{
+        margin-bottom: pxToRem(16);
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+    }
+    .btn{
+        width: 100%;
+    }
+    @media only screen and (min-width: $width-tablet) {
+        .title{
+            font-size: pxToRem(22);
+            margin-bottom: pxToRem(5);
+        }
+        .form-col{
+            float:left;
+            margin-right: pxToRem(16);
+            &:last-of-type{
+                margin-right: 0;
+            }
+        }
+        .tips-error{
+            min-height: pxToRem(24);
+            span{
+                display: block;
+                position:absolute;
+                left: 0;
+            }
+        }
+        .btn{
+            width: auto;
+        }
+    }
+}
+
+.control-input,
+.control-textarea{
+    display: block;
+    border:none;
+    background:$color-light-gray2;
+    line-height:pxToRem(20);
+    padding:pxToRem(10) pxToRem(15);
+    width: calc(100% - 0.3rem);
+    color:$color-white;
+    font-size:pxToRem(16);
+    font-family: "FuturaStd-Book";
+    border-radius:0;
+    @include placeholder($color-light-gray);
+    &.error{
+        background:$color-red;
+        @include placeholder($color-white);
+        +.tips-error{
+            display: block;
+        }
+    }
+}
+.control-select {
+    position: relative;
+    width: 100%;
+    z-index: 800;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: pxToRem(16);
+    color: $color-white;
+    background: $color-light-gray2;
+    text-align: left;
+    line-height: 1.5;
+    cursor: pointer;
+    .select-head {
+        position: relative;
+        padding: 0 pxToRem(15);
+        padding-right: 0.3rem;
+        line-height: pxToRem(40);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        input{
+            background: none;
+            border:none;
+            width: 100%;
+            padding:pxToRem(9) 0;
+            line-height: pxToRem(20);
+            cursor: pointer;
+            @include placeholder($color-light-gray);
+        }
+        &.default{
+            color: $color-light-gray;
+        }
+        &:before {
+            position: absolute;
+            display: block;
+            height: pxToRem(40);
+            color: $color-white;
+            font-size: pxToRem(7.2) !important;
+            right: pxToRem(14);
+            top: 0;
+            @extend .icomoon;
+            @extend .icon-angle-down;
+            @include transition ($type:all,$time:0.2s,$ease:linear);
+        }
+    }
+    .select-list {
+        display: none;
+        position: absolute;
+        padding: pxToRem(4) 0;
+        width: 100%;
+        top: pxToRem(44);
+        left: 0;
+        line-height: pxToRem(32);
+        background: $color-light-gray2;
+        ::-webkit-scrollbar {
+            width:16px;
+            background-color: #a0a0a0;
+        }
+        ::-webkit-scrollbar-track {
+            background-color: #a0a0a0;
+        }
+        ::-webkit-scrollbar-thumb {
+            border:solid 4px #a0a0a0;
+            border-radius: 8px;
+            background-color: #808080;
+        }
+        ul {
+            max-height: pxToRem(216);
+            overflow: auto;
+            li {
+                padding: 0 pxToRem(5) 0 pxToRem(15);
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                &:hover{
+                    color:$color-white;
+                    background: $color-light-gray5;
+                }
+            }
+        }
+    }
+    &.open {
+        z-index: 801;
+        .select-head {
+            &:before {
+                transform: rotate(180deg);
+            }
+        }
+    }
+    &.error{
+        background:$color-red !important;
+        .select-head {
+            input{
+                @include placeholder($color-white !important);
+            }
+        }
+        +.tips-error{
+            display: block;
+        }
+    }
+}
+
+.tips-error{
+    display: none;
+    clear: both;
+    padding-top: pxToRem(8);
+    width: 100%;
+    text-align:left;
+    color:$color-red;
+    font-family: "FuturaStd-Book";
+    font-size: pxToRem(16);
+    span{
+        width: 100%;
+    }
+}
+
+.customize-checkbox-wrapper{
+    width: pxToRem(20);
+    height: pxToRem(20);
+    margin-right:pxToRem(10);
+    position: relative;
+    display: inline-block;
+    top: pxToRem(2);
+    background-color: $color-light-gray2;
+    i{
+        font-size: pxToRem(8);
+        display: inline-block;
+        opacity: 0;
+        width: pxToRem(20);;
+        height: pxToRem(20);;
+        text-align: center;
+        vertical-align: middle;
+    }
+    &.checked{
+        i{
+            opacity: 1;
+        }
+    }
+     .customize-checkbox{
+         position: relative;
+         z-index: 10;
+         opacity: 0;
+         visibility: visible;
+         width: pxToRem(20);;
+         height: pxToRem(20);;
+         top: pxToRem(-17);
+    }
+}

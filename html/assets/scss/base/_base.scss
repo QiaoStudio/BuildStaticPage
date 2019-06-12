@@ -1,0 +1,193 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+body {
+    font: 16px/1.2 'FuturaStd-Book', Arial, Helvetica, sans-serif;
+    color: $color-gray;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 625%;
+
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+a {
+    color:$color-gray;
+    text-decoration: underline;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+a:hover,
+a:active{
+    color:$color-gray;
+}
+img {
+    width: 100%;
+}
+
+a:active,
+a:hover {
+    /* color: $color-blue; */
+}
+
+/*Fixed Kooboo Editor
+------------------------------------------------------*/
+.main .pagedesign-holder{
+    margin-top:pxToRem(80);
+    position: relative;
+    z-index: 999;
+}
+
+/* Clearfix
+------------------------------------------------------*/
+
+.clearfix {
+    *zoom: 1;
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+
+/* visible and hidden
+------------------------------------------------------*/
+
+.visible-mobile {
+    display: block !important;
+}
+
+.visible-tablet,
+.visible-desktop {
+    display: none !important;
+}
+
+.hidden-mobile {
+    display: none !important;
+}
+
+.hidden-tablet,
+.hidden-desktop {
+    display: block !important;
+}
+
+/* global-width
+------------------------------------------------------*/
+
+.global-width-01,
+.global-width-02,
+.global-width-03{
+    margin: 0 auto;
+    @extend .clearfix;
+}
+.global-width-02,
+.global-width-03{
+    width: calc(100% - 0.32rem);
+    padding:0 pxToRem(16);
+}
+/* tablet and desktop
+---------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: $width-tablet) {
+    body{
+        line-height: 1.5;
+    }
+    .one-half{
+        width:50%;
+    }
+    .one-third{
+        width: 33.3%;
+    }
+    .one-fourth{
+        width: 25%;
+    }
+    .visible-mobile {
+        display: none !important;
+    }
+    .hidden-mobile {
+        display: block !important;
+    }
+    .global-width-05 {
+        padding: 0 pxToRem(10);
+    }
+}
+
+
+/* tablet
+---------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: (($width-desktop)-1)) and (min-width: $width-tablet) {
+    .visible-tablet {
+        display: block !important;
+    }
+    .hidden-tablet {
+        display: none !important;
+    }
+}
+
+
+/* desktop
+---------------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: $width-desktop) {
+    .visible-desktop {
+        display: block !important;
+    }
+    .hidden-desktop {
+        display: none !important;
+    }
+    .global-width-01{
+        max-width: pxToRem(1280);
+    }
+    .global-width-02{
+        margin:0 auto;
+        max-width: pxToRem(960);
+    }
+    .global-width-03{
+        padding:0 pxToRem(32);
+        max-width: pxToRem(704);
+    }
+}

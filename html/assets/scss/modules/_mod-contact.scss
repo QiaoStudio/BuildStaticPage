@@ -1,0 +1,258 @@
+.block-banner-contact{
+	.block-contens-list2{
+		dt{
+			margin-bottom: pxToRem(8);
+		}
+		.one-half-brewery{
+            .item{
+                width: 50%;
+                &:nth-of-type(2){
+                    margin-top: pxToRem(28);
+                }
+            }
+		}
+		.one-half-do{
+			dd{
+				margin-bottom: pxToRem(8);
+			}
+            i{
+                display: none;
+            }
+		}
+	}
+    @media only screen and (max-width: ($width-tablet)-1) {
+        .block-contens-list2{
+            .one-half-brewery{
+                .item{
+                    &:nth-of-type(2){
+                        dd:nth-of-type(3){
+                            margin-top: pxToRem(18);
+                        }
+                    }
+                }
+            }
+            .one-half-do{
+                dd{
+                    margin-left: pxToRem(30);
+                    margin-bottom: pxToRem(7);
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: $width-tablet) {
+        .block-contens-list2{
+            .item{
+                width: calc(100% - .32rem);
+                padding: 0 pxToRem(16);
+            }
+            .one-half-brewery{
+                width: calc(50% - 1px);
+                border-right:solid 1px rgba(255,255,255,.3);
+                .item{
+                    width: calc(50% - .32rem);
+                    padding: 0 pxToRem(16);
+                    &:nth-of-type(2){
+                        margin-top: pxToRem(80);
+                    }
+                }
+            }
+            .one-half-do{
+                i{
+                    display: inline-block;
+                    width: pxToRem(32);
+                    font-size: pxToRem(12);
+                    &.icon-bookmark{
+                        font-size: pxToRem(14);
+                    }
+                }
+            }
+        }
+    }
+}
+.block-booktour{
+    padding:pxToRem(35) pxToRem(16);
+	.block-contens{
+		max-width:pxToRem(620);
+		margin:0 auto;
+		.title{
+			font-size: pxToRem(40);
+			letter-spacing: pxToRem(-1);
+		}
+	}
+	.form-wrapper{
+        text-align: left;
+		margin-top: pxToRem(25);
+	}
+    .control-input{
+        color:$color-gray;
+        background: #d9d9d9;
+        @include placeholder($color-light-gray2);
+    }
+	.control-select{
+        color:$color-gray;
+		background: #d9d9d9;
+		.select-head {
+			input{
+				@include placeholder($color-light-gray2);
+			}
+		}
+		.select-list{
+			background: #d9d9d9;
+            li:hover{
+                background:$color-light-gray2;
+            }
+		}
+        .icon-angle-down:before{
+            color:$color-gray;
+        }
+	} 
+	.btn{
+        width: 100%;
+        margin: pxToRem(15) 0;
+	}
+    @media only screen and (min-width: $width-tablet) {
+        padding:pxToRem(80) 0 pxToRem(95) 0;
+        .form-wrapper{
+            margin-left:auto;
+            margin-right:auto;
+            max-width: pxToRem(300);
+            .form-col{
+                width: calc(50% - .16rem);
+                padding-right:pxToRem(16);
+                margin-right: 0;
+                &:nth-of-type(2){
+                    padding-right:0;
+                    padding-left:pxToRem(16);
+                }
+            }
+            .tips-error{
+                margin-bottom: pxToRem(-10);
+                span{
+                    position: static;
+                }
+            }
+        }
+    }
+}
+.block-book{
+    background: url("images/contact/block-book-bg.jpg");
+    background-size: cover;
+    .block-contens{
+    	margin: pxToRem(35) auto;
+    	.title{
+    		margin-bottom: pxToRem(30);
+    	}
+    }
+    .form-wrapper{
+    	text-align:left;
+    }
+    .form-row{
+        .btn{
+        	margin-top: 0;
+        }
+    }
+    .block-contens-list2{
+    	margin-bottom: pxToRem(24);
+    	dd{
+    		span{
+    			display: inline-block;
+    			width: pxToRem(70);
+    		}
+    	}
+	} 
+    @media only screen and (max-width: ($width-tablet)-1) {
+        .form-row{
+            .btn{
+                width: 100%;
+                margin:0;
+            }
+        }
+        .block-contens-list2{
+            &:nth-of-type(2){
+                .item:nth-of-type(1){
+                    display: none;
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: $width-tablet) {
+        min-height: pxToRem(512);
+        .one-half{
+            float: left;
+            padding:0 pxToRem(32);
+            width: calc(50% - .64rem);
+        }
+        .block-contens{
+            margin-top: pxToRem(80);
+        }
+        .block-contens-list2{
+            .one-half{
+                width: 50%;
+                padding: 0;
+            }
+            .one-third + .one-half{
+                float: right;
+            }
+        }
+    }
+}
+.block-commit-message{
+    background: url("images/contact/block-commit-message-bg.jpg");
+    background-size: cover;
+    padding:pxToRem(35) pxToRem(16);
+    .block-contens{
+    	max-width: pxToRem(608);
+    	margin: 0 auto;
+    	.title{
+    		margin-bottom: pxToRem(32);
+    	}
+    }
+    .form-wrapper{
+    	margin-top: pxToRem(20);
+		text-align:left;
+    }
+    .form-row{
+        .btn{
+        	margin-top: 0;
+        }
+    }
+    @media only screen and (max-width: ($width-tablet)-1) {
+        .form-row{
+            .btn{
+                width: 100%;
+                margin:0;
+            }
+        }
+    }
+    @media only screen and (min-width: $width-tablet) {
+        min-height: pxToRem(782);
+        padding:pxToRem(45) 0;
+        .form-row{
+            padding-bottom: pxToRem(15);
+        }
+    }
+}
+.block-faq{
+	padding:pxToRem(35) 0;
+	.block-contens{
+    	max-width: pxToRem(640);
+    	margin: 0 auto;
+    }
+    .faq-list{
+    	margin:pxToRem(22) pxToRem(16);
+    	text-align:left;
+    }
+    .item{
+    	font-size:pxToRem(16);
+    	dt{
+    		color: #000087;
+    		a{
+    			color: #000087;
+    			text-decoration: underline;
+    		}
+    	}
+    }
+    @media only screen and (min-width: $width-tablet) {
+        padding:pxToRem(60) 0;
+    }
+}

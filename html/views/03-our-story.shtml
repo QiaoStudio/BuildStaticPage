@@ -1,0 +1,125 @@
+<!--#include file="inc/head.shtml" -->
+<body>
+    <!--#include file="inc/header.shtml" -->
+    <div class="main">
+        <div class="block-banner">
+            <section class="slider" data-animation-speed="600">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li style="background: url(../assets/images/slider/our-story.jpg) center center no-repeat;background-size:cover;">
+                            <div class="global-width-02">
+                                <div class="block-contens block-contens-white">
+                                    <h3 class="title">Ons verhaal</h3>
+                                    <p>Begin 2008 bedachten de oprichters en tevens broers Jerrit, Jitze en Remko Vellenga om Weesp een typisch eigen bier te geven. Mede gevoed door hun ervaring en kennis op het gebied van bieren zijn ze begonnen met het opzetten van het biermerk Wispe. Het idee is ontstaan nadat Jitze Vellenga als toekomstig inwoner van Weesp zich ging verdiepen in de geschiedenis van de stad. De naam Wispe is een van de oudste benamingen voor de toeristische Vechtstad.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="block-text">
+            <div class="global-width-02">
+                <div class="one-half">
+                    <p>Na het vinden van het juiste recept werden de voorbereidingen getroffen om Wispe te introduceren in Weesp. In juli 2009 was het zover, burgemeester Horseling overhandigde de eerste flessen aan de horeca. Inmiddels is Wispe verkrijgbaar in de meeste horecagelegenheden en slijterijen in Weesp. De ontwikkelingen staan niet stil. Ook buiten de Vechtstad is het bier steeds meer te vinden, voornamelijk in de regio Gooi en Vechtstreek en Amsterdam. </p>
+                    <br/>
+                    <p>In juni 2013 werd een tweede type bier geïntroduceerd, de zomerse Wispe Wit (alc. 5% vol.). Ook daarna blijven de broers nieuwe bieren ontwikkelen.</p>
+                </div>
+                <div class="one-half">
+                    <p>Tegen de gebruikelijke stroom in de beste bieren brouwen die door iedereen gedronken en gewaardeerd kunnen worden, dat is onze missie. Wij hebben daarbij aandacht voor elke stap van ons proces: van het selecteren van onze biologische ingrediënten tot aan het glas Wispe bier waar je volop van kunt genieten.</p>
+                    <br/>
+                    <p>Wispe is 100% puur natuur. Wij zien biologisch brouwen als de manier om volop te genieten van een natuurlijk product als bier. Met respect voor de omgeving, zonder chemische bestrijdingsmiddelen, voldoet Wispe aan de eisen voor het Europese biologische keurmerk.</p>
+                </div>
+            </div>
+        </div>
+        <div class="ourstory-nav">
+            <div class="nav-history" data-ourstory-scroll="history" style="background-image: url(../assets/images/our-story/nav-01.jpg)">
+                <span>De geschiedenis</span>
+            </div>
+            <div class="nav-value" data-ourstory-scroll="value" style="background-image: url(../assets/images/our-story/nav-02.jpg)">
+                <span>De kernwaarden</span>
+            </div>
+            <div class="nav-person" data-ourstory-scroll="person" style="background-image: url(../assets/images/our-story/nav-03.jpg)">
+                <span>De mensen</span>
+            </div>
+        </div>
+        <div class="block-ourstory-item block-ourstory-item-01" id="history">
+            <div class="global-width-01">
+                <div class="one-half"> 
+                    <div class="block-contens">
+                        <h3 class="title">De geschiedenis</h3>
+                        <p>Weesp gold in de Gouden eeuw als een van dé bierbrouwerssteden van Nederland. Dankzij het schone water uit de Vecht stond de stad lange tijd bekend om haar bier van uitstekende kwaliteit. De brouwindustrie zorgde voor een grote opleving van de Weesper economie. Het bier was tot over de landsgrenzen bekend, maar de stad leverde vooral aan steden als Amsterdam. Tot voor kort had Weesp geen enkel eigen bier meer.</p>
+                        <br/>
+                        <p>Met de komst van Wispe werd een oude biertraditie in Weesp in ere hersteld. Hieraan vooraf ging echter een lang ontwikkelingstraject. Vanaf begin 2008 werd gezocht naar een</p>
+                    </div>
+                </div>
+                <div class="one-half">
+                    <div class="pro-img" style="background-image: url(../assets/images/our-story/block-beer-item-01.jpg)"></div>
+                </div>
+            </div>
+        </div>
+         <div class="block-ourstory-item block-ourstory-item-02" id="value">
+            <div class="global-width-01">
+                <div class="one-half">
+                    <div class="block-contens">
+                        <h3 class="title">De kernwaarden</h3>
+                        <p>Wispe wordt sinds november 2009 gebrouwen met uitsluitend biologische ingrediënten en maakt zodoende gebruik van het Europese biologische keurmerk met bijbehorend Skallnummer (1848). </p>
+                        <br/>
+                        <p>Het bier wordt afgevuld in one-way longneckflessen van 33 cl en op fusten van 20 ltr. In de uitstraling van het opvallend vormgegeven flesje zijn de typische kleuren blauw en wit van Weesp terug te vinden. De etiketinformatie wordt op de flessen gedrukt met milieuvriendelijke inkt. Dit houdt in dat de inkt geen zware metalen bevat waardoor het gemakkelijk afbreekbaar is.</p>
+                    </div>
+                </div>
+                <div class="one-half">
+                    <div class="pro-img" style="background-image: url(../assets/images/our-story/block-beer-item-02.jpg)"></div>
+                </div>
+            </div>
+        </div>
+        <div class="block-ourstory-item block-ourstory-item-03" id="person">
+            <div class="global-width-01">
+                <div class="one-half">
+                    <div class="block-contens">
+                        <h3 class="title">De mensen</h3>
+                        <p>Begin 2008 bedachten de oprichters en tevens broers Jerrit, Jitze en Remko Vellenga om Weesp een typisch eigen bier te geven. Mede gevoed door hun ervaring en kennis op het gebied van bieren zijn ze begonnen met het opzetten van het biermerk Wispe. Het idee is ontstaan nadat Jitze Vellenga als toekomstig inwoner van Weesp zich ging verdiepen in de geschiedenis van de stad. De naam Wispe is een van de oudste benamingen voor de toeristische Vechtstad.</p>
+                    </div>
+                </div>
+                <div class="one-half">
+                    <div class="pro-img">
+                        <section class="slider" data-animation-speed="600">
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    <li style="background: url(../assets/images/our-story/block-beer-item-03.jpg) no-repeat;">
+                                        <div class="block-contens block-contens-white">
+                                            <h3 class="title">Title of the text block</h3>
+                                            <p>Lorem ipsum dolor sit amet dolorem proident utilitatis magnus agris. Abutebatur architecto propter ut materia. Quam quo aliquip, officii voluptatem.</p>
+                                        </div>
+                                    </li>
+                                    <li style="background: url(../assets/images/our-story/block-beer-item-03.jpg) no-repeat;">
+                                        <div class="block-contens block-contens-white">
+                                            <h3 class="title">Title of the text block</h3>
+                                            <p>Lorem ipsum dolor sit amet dolorem proident utilitatis magnus agris. Abutebatur architecto propter ut materia. Quam quo aliquip, officii voluptatem.</p>
+                                        </div>
+                                    </li>
+                                    <li style="background: url(../assets/images/our-story/block-beer-item-03.jpg) no-repeat;">
+                                        <div class="block-contens block-contens-white">
+                                            <h3 class="title">Title of the text block</h3>
+                                            <p>Lorem ipsum dolor sit amet dolorem proident utilitatis magnus agris. Abutebatur architecto propter ut materia. Quam quo aliquip, officii voluptatem.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-ourstory-foot global-width-02">
+            <div class="block-contens">
+                <h3 class="title">Ontdek de smaak van Wispe</h3>
+                <a class="btn btn-gray" href="##">naar onze verkooppunten</a>
+            </div>
+        </div>
+    </div>
+    <!--#include file="inc/footer.shtml" -->
+    <!--#include file="inc/foot.shtml" -->
+</body>
+
+</html>

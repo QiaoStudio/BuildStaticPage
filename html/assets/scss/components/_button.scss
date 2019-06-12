@@ -1,0 +1,51 @@
+.btn{
+  display:inline-block;
+  padding: pxToRem(9) pxToRem(35);
+  font-family: 'FuturaStd-Heavy';
+  font-size: pxToRem(14);
+  line-height: pxToRem(20);
+  text-transform: uppercase;
+  color: $color-blue;
+  border: $color-blue solid 1px;
+  &.btn-white{
+    color: $color-white;
+    border-color: $color-white;
+  }
+  &.btn-gray{
+    color: $color-gray;
+    border-color: $color-gray;
+  }
+  &.btn-light-gray{
+    color: $color-light-gray2;
+    border-color: $color-light-gray2;
+  }
+  &.btn-brown{
+    color: $color-brown;
+    border-color: $color-brown;
+  }
+  &.btn-blue{
+    color: $color-blue;
+    border-color: $color-blue;
+  }
+}
+a.btn{
+  text-decoration: none;
+}
+a.btn:hover{
+  color: $color-blue;
+  &.btn-white:hover{
+    color: $color-white;
+  }
+  &.btn-gray:hover{
+    color: $color-gray;
+  }
+  &.btn-light-gray:hover{
+    color: $color-light-gray2;
+  }
+  &.btn-brown:hover{
+    color: $color-brown;
+  }
+  &.btn-blue:hover{
+    color: $color-blue;
+  }
+}

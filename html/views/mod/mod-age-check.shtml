@@ -1,0 +1,27 @@
+<div class="age-check-main">
+    <h3 class="title">Om deze website te bezoeken moet je 18 jaar of ouder zijn</h3>
+    <p>Vul je geboortedatum in om toegang te krijgen tot de website</p>
+    <form class="form-wrapper" method="post" onsubmit="return ageCheck()" data-date-list>
+        <div class="form-col" id="day">
+            <label for="day">Dag</label>
+            <input class="control-input error" type="text" value="" placeholder="DD" />
+        </div>
+        <div class="form-col" id="month">
+            <label for="month">Maand</label>
+            <input class="control-input" type="text" value="" placeholder="MM" />
+        </div>
+        <div class="form-col" id="year">
+            <label for="year">Jaar</label>
+            <input class="control-input" type="text" value="" placeholder="YYYY" />
+        </div>
+        <div class="form-col">
+            <button class="btn btn-white">doorgaan</button>
+        </div>
+        <div class="tips-error" style="display: block;"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+        <div class="form-row checkbox">
+            <input type="checkbox" class="customize-checkbox" id="customize-checkout" checked="checked" />
+            <label for="customize-checkout">Onthoud mij</label>
+            <p class="hint">Vink deze optie niet aan als dit apparaat ook door anderen gebruikt wordt</p>
+        </div>
+    </form>
+</div>

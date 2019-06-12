@@ -1,0 +1,11 @@
+<!--#include file="inc/head.shtml" -->
+<body>
+    <div class="block-age-check" style="background-image: url(../assets/images/age-check-bg.jpg)">
+        <a class="logo" href="/"></a>
+        <div class="wrapper">
+            <!--#include file="mod/mod-age-check.shtml" -->
+        </div>
+    </div>
+    <!--#include file="inc/foot.shtml" -->
+</body>
+</html>

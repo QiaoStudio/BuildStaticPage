@@ -1,0 +1,4 @@
+<div class="mod-pop block-age-check">
+	 <!--#include file="mod-age-check.shtml" -->
+</div>
+<div class="mod-pop-overlay"></div>

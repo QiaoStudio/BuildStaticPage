@@ -1,0 +1,350 @@
+.icon-wine-label{
+	width:pxToRem(64);
+	height:pxToRem(42);
+	padding-top:pxToRem(24);
+	color:$color-white;
+	text-align: center;
+	font-size:pxToRem(8);
+	background:url("images/icons/icon-wine-label-blue.png") no-repeat;
+	background-size:contain;
+	strong{
+		display: block;
+		font-family: "FuturaStd-Heavy";
+		font-size: pxToRem(6);
+		text-transform: uppercase;
+	}
+	&.icon-wine-label-white{
+		color:$color-gray;
+		background:url("images/icons/icon-wine-label-white.png") no-repeat;
+		background-size:contain;
+	}
+	&.icon-wine-label-gray{
+		color:$color-gray;
+		background:url("images/icons/icon-wine-label-gray.png") no-repeat;
+		background-size:contain;
+	}
+	&.icon-wine-label-brown{
+		background:url("images/icons/icon-wine-label-brown.png") no-repeat;
+		background-size:contain;
+	}
+	@media only screen and (min-width: $width-tablet) {
+		width:pxToRem(128);
+		height:pxToRem(83);
+		padding-top:pxToRem(45);
+		font-size:pxToRem(16);
+		strong{
+			font-size: pxToRem(12);
+		}
+	}
+}
+.block-beer-item{
+	min-height:pxToRem(590);
+	@include block-onehalf-item;
+	.global-width-02{
+		@extend .clearfix;
+	}
+	.block-contens{
+		margin-bottom:pxToRem(23);
+		p{
+			letter-spacing: pxToRem(-0.5);
+		}
+	}
+	.info{
+		@extend .clearfix;
+		margin:pxToRem(24) auto;
+		padding:pxToRem(10) 0;
+		border-top:$color-light-gray3 solid 1px;
+		border-bottom:$color-light-gray3 solid 1px;
+		li{
+			float: left;
+			width: 25%;
+			color: #262626;
+			text-align: center;
+			.tit{
+				font-size: pxToRem(14);
+				text-transform: uppercase;
+			}
+			.num{
+				font-size: pxToRem(32);
+				font-family: "FuturaStd-Medium";
+				line-height: pxToRem(40);
+			}
+			.type{
+				font-size: pxToRem(14);
+				color: #959595;
+				letter-spacing: pxToRem(0);
+			}
+		}
+	}
+	.tips{
+		color: $color-light-gray2;
+	}
+	.pro-img{
+		position: relative;
+		z-index: 1;
+		min-height:pxToRem(320);
+		.icon-wine-label{
+			position:absolute;
+			right:pxToRem(25);
+			top:pxToRem(16);
+		}
+	}
+	.tips{
+		height: pxToRem(66);
+		padding-left:pxToRem(158);
+		display: table-cell;
+		vertical-align: middle;
+	    text-align: left;
+	    font-size: pxToRem(14);
+        line-height: 1.4;
+	}
+	&:nth-of-type(2n+1){
+		background:#d9d9d9;
+		.icon-wine-label{
+			right: auto;
+			left: pxToRem(25);
+		}
+		.info{
+			border-color:$color-light-gray4;
+		}	
+	}
+	.btn-cont{
+		text-align: center;
+		.btn{
+			margin:pxToRem(10) auto pxToRem(30) auto;
+		}
+	}
+	&.block-beer-item-01{
+		.block-contens{
+			.title{
+				color: $color-light-gray2;
+			}
+		} 
+		.pro-img{
+			background:url("images/bieren/bieren-item-01.jpg") center top no-repeat;
+			background-size:contain;
+		}
+		.icon-wine-label{
+			@extend .icon-wine-label-gray;
+			color: $color-light-gray2;
+		}
+		.tips{
+			background:url("images/bieren/tips-01.jpg") no-repeat;
+			background-size: pxToRem(110) auto;
+			background-position-x: pxToRem(20);
+		}
+	}
+	&.block-beer-item-02{
+		.block-contens{
+			.title{
+				color: $color-white;
+			}
+		} 
+		.pro-img{
+			background:url("images/bieren/bieren-item-02.jpg") center top no-repeat;
+			background-size:contain;
+		}
+		.icon-wine-label{
+			@extend .icon-wine-label-white;
+			color:$color-white;
+		}
+		.tips{
+			background:url("images/bieren/tips-02.jpg") top left no-repeat;
+			background-size: pxToRem(110) auto;
+		}
+	}
+	&.block-beer-item-03{
+		.block-contens{
+			.title{
+				color: $color-brown;
+			}
+		} 
+		.pro-img{
+			background:url("images/bieren/bieren-item-03.jpg") center top no-repeat;
+			background-size:contain;
+		}
+		.icon-wine-label{
+			@extend .icon-wine-label-brown;
+			color:$color-brown;
+		}
+		.tips{
+			background:url("images/bieren/tips-03.jpg") no-repeat;
+			background-size: pxToRem(110) auto;
+			background-position-x: pxToRem(20);
+		}
+	}
+	&.block-beer-item-04{
+		.block-contens{
+		} 
+		.pro-img{
+			background:url("images/bieren/bieren-item-04.jpg") center top no-repeat;
+			background-size:contain;
+		}
+		.icon-wine-label{
+			color:$color-blue;
+		}
+		.tips{
+			background:url("images/bieren/tips-04.jpg?v") top left no-repeat;
+			background-size: pxToRem(110) auto;
+			background-position-x: pxToRem(5);
+		}
+	}
+	@media only screen and (min-width: $width-tablet) {
+		.block-contens{
+			margin:pxToRem(58) pxToRem(30) pxToRem(5) pxToRem(30);
+			text-align:right;
+			.title{
+				width: calc(100% + 0.6rem);
+				margin-left: pxToRem(-60);
+				letter-spacing: pxToRem(-2);
+			}
+		}
+		.btn-cont{
+			text-align: center;
+			.btn{
+				margin:pxToRem(10) auto pxToRem(30) auto;
+				width: pxToRem(184);
+				text-align: center;
+			}
+		}
+		.info{
+			margin-bottom:pxToRem(34);
+		}
+		.pro-img{
+			min-height:pxToRem(590);
+			background-size: auto auto;
+			.icon-wine-label{
+				right:0;
+				top:pxToRem(34);
+			}
+		}
+		.tips{
+			height: pxToRem(132);
+			padding-left:pxToRem(210);
+			font-size: pxToRem(16);
+			text-align: right;
+		}
+		&:nth-of-type(2n+1){
+			.block-contens{
+				text-align: left;
+				.title{
+					margin-left: 0;
+				}
+			}
+			.icon-wine-label{
+				right: auto;
+				left: 0;
+			}
+			.tips{
+				padding-left:0;
+				padding-right:pxToRem(210);
+				background-position:center right;
+				text-align:left;
+			}	
+		}
+		&.block-beer-item-01,
+		&.block-beer-item-02,
+		&.block-beer-item-03,
+		&.block-beer-item-04{
+			.pro-img{
+				background-size: auto auto;
+			}
+			.tips{
+				background-position-x: left;
+				background-size: auto auto;
+			}
+		}
+		&.block-beer-item-01{
+			.tips{
+				background-size: pxToRem(203) auto;
+			}
+		}
+		&.block-beer-item-02,
+		&.block-beer-item-04{
+			.tips{
+				background-position-x: right;
+			}
+		}
+	}
+}
+.map-search{
+	position: relative;
+	overflow: hidden;
+	.wrapper{
+		padding:pxToRem(15) 0 pxToRem(30) 0;
+		background:#4c4c4c;
+	}
+	.form-wrapper{
+		.title{
+			color: $color-white;
+		}
+		.btn{
+			width: 100%;
+			position:relative;
+			z-index: 2;
+			min-height: pxToRem(40);
+		}	
+	}
+	.icomoon{
+		display: block;
+		margin: 0 auto;
+	}
+	.map{
+		height: pxToRem(284);
+		@include transition ($type:all,$time:0.3s,$ease:linear);
+		&.show{
+		    margin-right: calc(50% - 1.57rem);
+		}
+	}
+	.map-search-result{
+		position: absolute;
+		width: 50%;
+		z-index: 1;
+		left: 100%;
+		top:0;
+		margin-left: pxToRem(155);
+	    height: calc(100% - 1.58rem);
+		padding:pxToRem(143) pxToRem(32) pxToRem(15) pxToRem(32);
+	    overflow: hidden;
+		background:$color-light-gray2;
+		color:$color-white;
+		@include transition ($type:all,$time:0.3s,$ease:linear);
+		.no-result{
+			margin-top: pxToRem(8);
+		}
+		.search-result-cont{
+		    height: 100%;
+		    width: pxToRem(275);
+			overflow-y:auto;
+		}
+		dl{
+			padding:pxToRem(15) 0;
+		}
+		dt{
+			font-family: "FuturaStd-Heavy";
+		}
+		&.show{
+			left: 50%;
+		}
+	}
+	@media only screen and (min-width: $width-tablet) {
+		.wrapper{
+			padding:pxToRem(32) 0;
+		}
+		.form-wrapper{
+			.form-col{
+				width: 21.2%;
+				&:nth-of-type(1){
+					width: 22.8%;
+				}
+			    &:last-child{
+			    	margin-left: pxToRem(16);
+			    	width: calc(34.8% - 0.64rem);
+			    }
+			}
+		}
+		.map{
+			height: pxToRem(352);
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.mod-pop {
+    position: absolute;
+    z-index: 901;
+    left: 0;
+    top: 0;  
+    &.block-age-check{
+    	background:none;
+    	min-height:0;
+    	padding: pxToRem(25) 0 pxToRem(35) 0;
+		background:#343434;
+        border:3px solid rgba(255, 255, 255, .8);
+		.age-check-main {
+			padding:0 pxToRem(30);
+        }
+    }
+}
+.mod-pop-overlay {
+    position: fixed;
+    z-index: 900;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+}
+

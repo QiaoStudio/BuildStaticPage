@@ -1,0 +1,203 @@
+.block-text{
+	padding:pxToRem(45) 0;
+	text-align: center;
+	@media only screen and (max-width: ($width-tablet)-1) {
+		.one-half{
+			&:nth-of-type(2n){
+				margin-top: pxToRem(24);
+			}
+		}
+	}
+	@media only screen and (min-width: $width-tablet) {
+		padding:pxToRem(90) 0;
+		.one-half{
+			float: left;
+			margin:0 pxToRem(40);
+			width: calc(50% - 0.8rem);
+		}
+	}
+}
+.ourstory-nav{
+	height:pxToRem(80);
+	text-align:center;
+	color:$color-white;
+	font-size:pxToRem(12);
+	font-family: 'opificio';
+	letter-spacing: pxToRem(-0.3);
+	>*{
+		float: left;
+		height: 100%;
+		width: 33.3%;
+		position: relative;
+		cursor: pointer;
+		span{
+			position: absolute;
+			bottom: pxToRem(4); 
+			left: 0;
+			width: 100%;
+			&:after,
+			&:before{
+				display: none;
+				margin:0 auto;
+				font-size: pxToRem(36);
+				font-weight: bold;
+				line-height: pxToRem(26);
+				opacity: .54;
+				@extend .icon-font-awesome;
+				content: "\f107";
+			}
+			&:after{
+				display: block;
+			}
+		}
+	}
+	.nav-history{
+		background:url("images/our-story/nav-01.jpg") center center no-repeat;
+		background-size: cover;
+	}
+	.nav-value{
+		background:url("images/our-story/nav-02.jpg") center center no-repeat;
+		background-size: cover;
+	}
+	.nav-person{
+		background:url("images/our-story/nav-03.jpg") center center no-repeat;
+		background-size: cover;
+	}
+	@media only screen and (min-width: $width-tablet) {
+		height:pxToRem(320);
+		margin-bottom:pxToRem(96);
+		font-size:pxToRem(24);
+		letter-spacing: pxToRem(-0.5);
+		>*{
+			span{
+				bottom: pxToRem(20);
+				&:after{
+					display: none;
+				}
+				&:before{
+					display: block;
+					font-size: pxToRem(40);
+				}
+			}
+		}
+	}
+}
+.block-ourstory-item{
+	@include block-onehalf-item;
+	.global-width-01{
+		@extend .clearfix;
+	}
+	.block-contens{
+		margin:pxToRem(30) pxToRem(16);
+	}
+	&.block-ourstory-item-01{
+		.pro-img{
+			background:url("images/our-story/block-beer-item-01.jpg") top center no-repeat;
+		}
+	}
+	&.block-ourstory-item-02{
+		.pro-img{
+			background:url("images/our-story/block-beer-item-02.jpg") top center no-repeat;
+		}
+	}
+	.slides{
+		li{
+			background-position:top center !important;
+		}
+		.block-contens{
+		    margin:pxToRem(108) auto 0 auto;
+			width: 80%;
+			.title{
+				margin-bottom:0;
+				font-family: "FuturaStd-Heavy";
+				font-size: pxToRem(16);
+			    letter-spacing: 0;
+			}
+		}
+	}
+	@media only screen and (max-width: ($width-tablet)-1) {
+		.pro-img{
+			height: pxToRem(240);
+		}
+		.block-contens{
+			.title{
+			    letter-spacing: -0.02rem;
+			}
+		}
+		.slides {
+    		li {
+       		 	float: left;
+    		}
+   		}		
+	}
+	@media only screen and (min-width: $width-tablet) {
+		min-height:pxToRem(576);
+		.pro-img{
+		    background-position: top right;
+		}
+		.flex-direction-nav{
+			display: block;
+			position:absolute;
+			margin-top:0;
+			top: pxToRem(450);
+			left: initial;
+			width: pxToRem(520);
+			max-width: 100%;
+			right: 0;
+			li{
+				margin:0 pxToRem(18);
+			}
+		}
+		.block-contens{
+			margin:pxToRem(90) 0 0 pxToRem(32);
+			max-width: pxToRem(448);
+			text-align: left;
+			.title{
+				font-size:pxToRem(40);
+			}
+		}
+		&:nth-of-type(2n+1){
+			.block-contens{
+				float: right;
+				margin:pxToRem(90) pxToRem(32) 0 0;
+				text-align: right;
+			}
+		}
+		.slides{
+			li{
+				width: 100%;
+			}
+			.block-contens{
+				float: right;
+				width:pxToRem(366);
+				max-width: calc(100% - 1.44rem);
+				margin:pxToRem(410) pxToRem(72) 0 0;
+			}
+		}
+	}
+	@media only screen and (min-width: $width-desktop) {
+		.slides{
+			.block-contens{
+				margin-top:pxToRem(425);
+			}
+		}
+	}
+}
+.block-ourstory-foot{
+	padding:pxToRem(35) 0;
+	.block-contens{
+		.title{
+			font-size: pxToRem(40);
+		}
+	}
+	@media only screen and (max-width: ($width-tablet)-1) {
+		.block-contens{
+			.title{
+				margin-bottom: 0;
+			}
+		}
+	}
+	@media only screen and (min-width: $width-tablet) {
+		padding:pxToRem(50) 0;
+	}
+}

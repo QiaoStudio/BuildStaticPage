@@ -1,0 +1,73 @@
+<!--#include file="inc/head.shtml" -->
+<body>
+    <!--#include file="inc/header.shtml" -->
+    <div class="main">
+        <div class="block-banner block-banner-home">
+            <section class="slider" data-animation-speed="600">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li style="background: url(../assets/images/slider/home-01.jpg) center center no-repeat;background-size:cover;">
+                            <div class="global-width-02">
+                                <div class="block-contens block-contens-white">
+                                    <h3 class="title">Drink anders, denk Wispe</h3>
+                                    <p>Meer van hetzelfde? Natuurlijk niet. Bier is een natuurproduct en kent enorm veel smaken. Dát verschil willen wij jou laten proeven. Drie broers die vanuit Weesp tegen de stroom in brouwen. Ontdek onze bieren: proef de hop, ervaar de aroma's en geniet van Wispe.</p>
+                                    <a class="btn more" href="##">lees meer over ons verhaal</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background: url(../assets/images/slider/home-01.jpg) center center no-repeat;background-size:cover;">
+                            <div class="global-width-02">
+                                <div class="block-contens block-contens-white">
+                                    <h3 class="title">Drink anders, denk Wispe2</h3>
+                                    <p>Meer van hetzelfde? Natuurlijk niet. Bier is een natuurproduct en kent enorm veel smaken. Dát verschil willen wij jou laten proeven. Drie broers die vanuit Weesp tegen de stroom in brouwen. Ontdek onze bieren: proef de hop, ervaar de aroma's en geniet van Wispe.</p>
+                                    <a class="btn more" href="##">lees meer over ons verhaal</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background: url(../assets/images/slider/home-01.jpg) center center no-repeat;background-size:cover;">
+                            <div class="global-width-02">
+                                <div class="block-contens block-contens-white">
+                                    <h3 class="title">Drink anders, denk Wispe3</h3>
+                                    <p>Meer van hetzelfde? Natuurlijk niet. Bier is een natuurproduct en kent enorm veel smaken. Dát verschil willen wij jou laten proeven. Drie broers die vanuit Weesp tegen de stroom in brouwen. Ontdek onze bieren: proef de hop, ervaar de aroma's en geniet van Wispe.</p>
+                                    <a class="btn more" href="##">lees meer over ons verhaal</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="block-beer" style="background-image: url(../assets/images/home/beer-bg.jpg)">
+            <div class="global-width-02">
+                <div class="block-contens">
+                    <h3 class="title">Onze bieren</h3>
+                    <p>Tegen de gebruikelijke stroom in de beste bieren brouwen die door iedereen gedronken en gewaardeerd kunnen worden, dat is onze missie. Wij hebben daarbij aandacht voor elke stap van ons proces: van het selecteren van onze biologische ingrediënten tot aan het glas Wispe bier waar je volop van kunt genieten. Ontdek onze eigenwijze bieren. Proef de hop, ervaar de aroma's en geniet van Wispe.</p>
+                    <a class="btn more" href="##">lees meer over de bieren</a>
+                </div>
+            </div>
+        </div>
+        <div class="block-story" style="background-image: url(../assets/images/home/story-bg.jpg)">
+            <div class="global-width-02">
+                <div class="block-contens block-contens-white">
+                    <h3 class="title">Ons verhaal</h3>
+                    <p>Lorem ipsum dolor sit amet dolorem proident utilitatis magnus agris. Abutebatur architecto propter ut materia. Quam quo aliquip, officii voluptatem. Qui pariatur officii eos. Et laboris aut aspexerat fugiat. Ipsa amet quoddam colebatur propter.</p>
+                    <a class="btn btn-white more" href="##">lees over ons verhaal</a>
+                </div>
+            </div>
+        </div>
+        <div class="block-brewery" style="background-image: url(../assets/images/home/brewery-bg.jpg)">
+            <div class="global-width-02">
+                <div class="block-contens block-contens-white">
+                    <h3 class="title">De brouwerij</h3>
+                    <p>Tegen de gebruikelijke stroom in de beste bieren brouwen die door iedereen gedronken en gewaardeerd kunnen worden, dat is onze missie. Wij hebben daarbij aandacht voor elke stap van ons proces: van het selecteren van onze biologische ingrediënten tot aan het glas Wispe bier waar je volop van kunt genieten. Ontdek onze eigenwijze bieren. Proef de hop, ervaar de aroma's en geniet van Wispe.</p>
+                    <a class="btn btn-white more" href="##">lees meer over onze brouwerij</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--#include file="inc/footer.shtml" -->
+    <!--#include file="mod/mod-pop-age-check.shtml" -->
+    <!--#include file="inc/foot.shtml" -->
+</body>
+
+</html>

@@ -1,0 +1,250 @@
+/* Common */
+  /* line 1, scss/partials/_flexslider.scss */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+  outline: none;
+}
+
+/* line 8, scss/partials/_flexslider.scss */
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 16, scss/partials/_flexslider.scss */
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 21, scss/partials/_flexslider.scss */
+.flexslider .slides > li {
+  /* display: none; */
+  position: relative;
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 27, scss/partials/_flexslider.scss */
+.flexslider .slides img {
+  max-width: 100%;
+  display: block;
+}
+
+/* line 32, scss/partials/_flexslider.scss */
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
+
+/* line 36, scss/partials/_flexslider.scss */
+.slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 45, scss/partials/_flexslider.scss */
+html[xmlns] .slides {
+  display: block;
+}
+
+/* line 49, scss/partials/_flexslider.scss */
+* html .slides {
+  height: 1%;
+}
+
+/* line 53, scss/partials/_flexslider.scss */
+.no-js .slides > li:first-child {
+  display: block;
+}
+
+/* line 57, scss/partials/_flexslider.scss */
+.flexslider {
+  margin: 0;
+  position: relative;
+  zoom: 1;
+  background: url(images/loading.gif) 50% 50% no-repeat;
+  background-size: 50px 50px;
+  overflow: hidden;
+}
+/* line 63, scss/partials/_flexslider.scss */
+.flexslider .slides {
+ /*  margin-top: -8px; */
+}
+
+/* line 68, scss/partials/_flexslider.scss */
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+/* line 75, scss/partials/_flexslider.scss */
+.loading .flex-viewport {
+  max-height: 300px;
+}
+
+/* line 79, scss/partials/_flexslider.scss */
+.flexslider .slides {
+  zoom: 1;
+}
+
+/* line 83, scss/partials/_flexslider.scss */
+.carousel li {
+  margin-right: 5px;
+}
+
+/* line 87, scss/partials/_flexslider.scss */
+.flex-direction-nav {
+  *height: 0;
+}
+
+/* line 91, scss/partials/_flexslider.scss */
+.flex-direction-nav .flex-disabled {
+  opacity: 0.3 !important;
+  filter: alpha(opacity=30);
+  cursor: default;
+}
+
+/* line 97, scss/partials/_flexslider.scss */
+.flex-control-thumbs {
+  margin: 5px 0 0;
+  position: static;
+  overflow: hidden;
+}
+
+/* line 103, scss/partials/_flexslider.scss */
+.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
+
+/* line 109, scss/partials/_flexslider.scss */
+.flex-control-thumbs img {
+  width: 100%;
+  display: block;
+  opacity: .7;
+  cursor: pointer;
+}
+
+/* line 116, scss/partials/_flexslider.scss */
+.flex-control-thumbs img:hover {
+  opacity: 1;
+}
+
+/* line 120, scss/partials/_flexslider.scss */
+.flex-control-thumbs .flex-active {
+  opacity: 1;
+  cursor: default;
+}
+
+@media screen and (max-width: 860px) {
+  /* line 126, scss/partials/_flexslider.scss */
+  .flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: 0;
+  }
+
+  /* line 130, scss/partials/_flexslider.scss */
+  .flex-direction-nav .flex-next {
+    opacity: 1;
+    right: 0;
+  }
+}
+/* Control Nav */
+/* line 137, scss/partials/_flexslider.scss */
+.flex-control-nav {
+  position: absolute;
+  bottom: pxToRem(10);
+  width: 100%;
+  text-align: center;
+  z-index: 200;
+}
+
+/* line 146, scss/partials/_flexslider.scss */
+.flex-control-nav li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 153, scss/partials/_flexslider.scss */
+.flex-control-paging li a {
+  display: inline-block;
+  width: pxToRem(8);
+  height: pxToRem(8);
+  text-indent: -9999px;
+  border: 0;
+  margin: 0 pxToRem(2);
+  border-radius: pxToRem(16);
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+/* line 165, scss/partials/_flexslider.scss */
+/* .flex-control-paging li a:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+} */
+
+/* line 169, scss/partials/_flexslider.scss */
+.flex-control-paging li a.flex-active {
+    background-color: #fff;
+}
+
+/* line 177, scss/partials/_flexslider.scss */
+.flex-control-thumbs {
+  margin: pxToRem(5) 0 0;
+  position: static;
+  overflow: hidden;
+}
+
+/* line 183, scss/partials/_flexslider.scss */
+.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
+
+/* line 189, scss/partials/_flexslider.scss */
+.flex-control-thumbs img {
+  width: 100%;
+  display: block;
+  opacity: .7;
+  cursor: pointer;
+}
+
+/* line 196, scss/partials/_flexslider.scss */
+.flex-control-thumbs img:hover {
+  opacity: 1;
+}
+
+/* line 200, scss/partials/_flexslider.scss */
+.flex-control-thumbs .flex-active {
+  opacity: 1;
+  cursor: default;
+}
+@media only screen and (min-width: $width-tablet) {
+  .flex-control-nav{
+    bottom:pxToRem(60);
+  }
+  .flex-control-paging li a {
+    display: inline-block;
+    width: pxToRem(16);
+    height: pxToRem(16);
+    margin: 0 pxToRem(4);
+  }
+}
+@media only screen and(min-width:$width-desktop) {
+    .flex-control-paging li a:hover {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+}

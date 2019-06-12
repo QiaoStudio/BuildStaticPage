@@ -1,0 +1,138 @@
+<!--#include file="inc/head.shtml" -->
+<body>
+    <!--#include file="inc/header-brewery.shtml" -->
+    <div class="main">
+        <div class="block-banner">
+            <section class="slider" data-animation-speed="600">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li style="background: url(../assets/images/slider/brewery.jpg) center center no-repeat;background-size:cover;">
+                            <div class="global-width-02">
+                                <div class="block-contens block-contens-white">
+                                    <h3 class="title">Contact</h3>
+                                    <p>orem ipsum dolor sit amet dolorem proident utilitatis magnus agris. Abutebatur architecto propter ut materia. Quam quo aliquip, officii voluptatem. Qui pariatur officii eos. Lorem ipsum dolor sit amet cum tenetur animi. Et laboris aut aspexerat fugiat. Ipsa amet quoddam colebatur propter. </p>
+                                    <div class="btn-cont">
+                                        <a class="btn btn-white" href="##">rondleiding boeken</a>
+                                        <a class="btn btn-white" href="##">ons proeflokaal</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="block-brewery-type">
+            <div class="item item-water" style="background-image: url(../assets/images/brewery/type-bg-01.jpg)">
+                <i class="icomoon icon-water"></i>
+                <h3 class="title">Water</h3>
+                <p>Lorem ipsum dolor sit amet caeca materia non. Culpa sit mollitia, consectetur et. Eligendi haberet iste, At eiusmod.</p>
+            </div>
+             <div class="item item-food" style="background-image: url(../assets/images/brewery/type-bg-02.jpg)">
+                <i class="icomoon icon-food"></i>
+                <h3 class="title">Graan</h3>
+                <p>Lorem ipsum dolor sit amet caeca materia non. Culpa sit mollitia, consectetur et. Eligendi haberet iste, At eiusmod.</p>
+            </div>
+            <div class="item item-hop" style="background-image: url(../assets/images/brewery/type-bg-03.jpg)">
+                <i class="icomoon icon-hop"></i>
+                <h3 class="title">Hop</h3>
+                <p>Lorem ipsum dolor sit amet caeca materia non. Culpa sit mollitia, consectetur et. Eligendi haberet iste, At eiusmod.</p>
+            </div>
+            <div class="item item-gist" style="background-image: url(../assets/images/brewery/type-bg-04.jpg)">
+                <i class="icomoon icon-gist"></i>
+                <h3 class="title">Gist</h3>
+                <p>Lorem ipsum dolor sit amet caeca materia non. Culpa sit mollitia, consectetur et. Eligendi haberet iste, At eiusmod.</p>
+            </div>
+        </div>
+        <div class="block-process">
+            <div class="one-half pic">
+                <h3 class="title">Brouwproces</h3>
+                <img src="../assets/images/brewery/process.png" alt="" />
+            </div>
+            <div class="one-half block-contens-list">
+                <dl>
+                    <dt class="title">1. Pureren</dt>
+                    <dd>Stampen is het proces van het mengen van gemoute gerst en tarwe met warm water. Enzymen zetten lange zetmeel in suikers die de gist kunnen benutten. Tijdens spoelen van de bostel bed wordt gespoeld met heet water (genoemd een proces als Sparging) en de "Sweet Wort" wordt verzameld in de kookketel.</dd>
+                </dl>
+                <dl>
+                    <dt class="title">2. KOKEN</dt>
+                    <dd>De "Wort" (suiker water) wordt gekookt om ongewenste verbindingen uit te drijven en chemische reacties die wenselijk smaken verbeteren promoten. Hop toevoegingen worden gebruikt bitterheid en essentiële oliën die bijdragen aan geur en smaak toe te voegen.</dd>
+                </dl>
+                <dl>
+                    <dt class="title">3. GISTING</dt>
+                    <dd>Gist wordt toegevoegd aan gekoeld "Wort" in de vergister. Suikers worden omgezet in alcohol, kooldioxide, en een verscheidenheid van smaakstoffen produceren.</dd>
+                </dl>
+                <dl>
+                    <dt class="title">4. CONDITIONING</dt>
+                    <dd>Bier wordt overgebracht in een Helder Tank voor koolzuur aanpassingen of langere veroudering.</dd>
+                </dl>
+                <dl>
+                    <dt class="title">5. verpakken</dt>
+                    <dd>Afgewerkt bier in flessen zetten.</dd>
+                </dl>
+                <dl>
+                    <dt class="title">6. DRINKen</dt>
+                    <dd>Je weet hoe dit deel werkt. Genieten!</dd>
+                </dl>
+            </div>   
+        </div>
+        <div class="block-tasting-room" style="background-image:url(../assets/images/brewery/tasting-room-bg.jpg)">
+            <div class="block-contens">
+                <h3 class="title">Proeflokaal</h3>
+                <p>Lorem ipsum dolor sit amet caeca materia non. Culpa sit mollitia, consectetur et. Eligendi haberet iste, At eiusmod. Quia velit vel insolentiam. Lorem ipsum dolor sit amet possimus mites se eos modo. Eam quae rerum culpa quas. Voluptatem esse cupidatat laboris culpa. In nisi architecto fugit fugiat. Minus rerum propter ac magnus. Asperiores qui amet, magnus corporis. </p>
+                <a class="btn" href="##">route</a>
+                <div class="service-list">
+                    <a href="##"><i class="icomoon icon-menu"></i>menu</a>
+                    <a href="javascript:;" data-lightbox-show><i class="icomoon icon-gallery"></i>kijken</a>
+                    <a href="##"><i class="icomoon icon-reserveren"></i>reserveren</a>
+                    <a href="##"><i class="icomoon icon-route"></i>route</a>
+                </div>
+            </div>
+            <div class="lightbox-images" style="display:none;">
+                <img src="/assets/images/lightbox/01.jpg" />
+                <img src="/assets/images/lightbox/01.jpg" />
+            </div>
+        </div>
+        <div class="block-winery" style="background-color: #363636">
+            <div class="block-contens block-contens-white">
+                <h3 class="title">De distilleerderij</h3>
+                <p>Lorem ipsum dolor sit amet caeca materia non. Culpa sit mollitia, consectetur et. Eligendi haberet iste, At eiusmod. Quia velit vel insolentiam. Lorem ipsum dolor sit amet possimus mites se eos modo. Eam quae rerum culpa quas. Voluptatem esse cupidatat laboris culpa. In nisi architecto fugit fugiat. Minus rerum propter ac magnus. Asperiores qui amet, magnus corporis.</p>
+                <a class="btn" href="##">meer info</a>
+            </div>
+        </div>
+        <div class="block-agenda">
+            <div class="block-contens">
+                <h3 class="title">Agenda</h3>
+            </div>
+            <div class="block-contens-list">
+                <dl>
+                    <dd>2016</dd>
+                    <dt class="title">MAART - SEPTEMBER</dt>
+                    <dd>Wispe staat op de zondagen van 11.00 tot 18.00 uur op de Pure Markt in Amsterdam. <a href="##">Klik hier</a> voor de locatie en data.</dd>
+                </dl>
+                <dl>
+                    <dd>2015</dd>
+                    <dt class="title">12 - 14 DECEMBER</dt>
+                    <dd>Wispe bier staat op Taste of Christmas in de Jaarbeurs Utrecht. <a href="##">Klik hier</a> voor de locatie en data.</dd>
+                </dl>
+                <dl>
+                    <dt class="title">MAART - SEPTEMBER</dt>
+                    <dd>Wispe bier staat op de zondagen van 11.00 tot 18.00 uur op de Pure Markt in Amsterdam. <a href="##">Klik hier</a> voor de locatie en data.</dd>
+                </dl>
+                <dl>
+                    <dt class="title">MAART - SEPTEMBER</dt>
+                    <dd>Wispe bier staat op iedere tweede zondag van de maand van 11.00 tot 18.00 uur op de markt TROTS in Baarn.</dd>
+                </dl>
+                <dl>
+                    <dt class="title">15-17 MEI</dt>
+                    <dd>Wispe viert haar eerste jubileum en lanceert het derde Wispe bier.</dd>
+                </dl>
+            </div>
+        </div>
+
+    </div>
+    <!--#include file="inc/footer.shtml" -->
+    <!--#include file="inc/foot.shtml" -->
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<div class="u-loading" style="display: none;"></div>
+<!-- This is for new pop tips start-->
+<div class="js-flashmessage-success hidden molecule-flashmessage">Je gegevens zijn aangepast.</div>
+<div class="js-flashmessage-warning hidden molecule-flashmessage">Je gegevens zijn aangepast.</div>
+<!-- This is for new pop tips end-->
+<script src="../assets/js/jquery-1.10.2.js"></script>
+<script src="../assets/js/plugins/jquery.flexslider-min.js"></script>
+<script src="../assets/js/plugins/foundation-datepicker.min.js"></script>
+<!-- lightbox start -->
+<script src="../assets/js/plugins/uikit.min.js"></script>
+<script src="../assets/js/plugins/lightbox.min.js"></script>
+<!-- lightbox end -->
+<script src="../assets/js/main.js"></script>

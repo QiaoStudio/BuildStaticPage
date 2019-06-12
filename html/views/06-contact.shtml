@@ -1,0 +1,240 @@
+<!--#include file="inc/head.shtml" -->
+<body>
+    <!--#include file="inc/header.shtml" -->
+    <div class="main">
+        <div class="block-banner block-banner-contact">
+            <section class="slider" data-animation-speed="600">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li style="background: url(../assets/images/slider/brewery.jpg) center center no-repeat;background-size:cover;">
+                            <div class="global-width-02">
+                                <div class="block-contens block-contens-white">
+                                    <h3 class="title">Contact</h3>
+                                    <div class="block-contens-list2">
+                                        <div class="one-half one-half-brewery">
+                                            <dl class="one-half item">
+                                                <dt>Wispe Brouwerij</dt>
+                                                <dd>Straatnaam 12 1789 AA Weesp</dd>
+                                                <dd>E. <a href="##">info@wispe.nl</a></dd>
+                                                <dd>I. <a href="##">www.wispe.nl</a></dd>   
+                                            </dl>
+                                            <dl class="one-half item">
+                                                <dd>T. 020-7715827</dd> 
+                                                <dd>F. 020-7715827</dd>
+                                                <dd><a href="##">Routebeschrijving</a></dd>  
+                                            </dl>
+                                        </div>
+                                        <div class="one-half one-half-do">
+                                            <dl class="item">
+                                                <dt>Om te doen...</dt>
+                                                <dd>
+                                                    <a href="##"><i class="icomoon icon-message"></i>Stuur ons een bericht</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="##"><i class="icomoon icon-bookmark"></i>Reserveer een tafel in ons proeflokaal</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="##"><i class="icomoon icon-book"></i>Boek een rondleiding door onze brouwerij</a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="##"><i class="icomoon icon-faq"></i>Veelgestelde vragen</a>
+                                                </dd>    
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="block-booktour">
+            <div class="block-contens">
+                <h3 class="title">Boek een rondleiding</h3>
+                <p>Lorem ipsum dolor sit amet dolorem proident utilitatis magnus agris. Abutebatur architecto propter ut materia. Quam quo aliquip, officii voluptatem. Qui pariatur officii eos. Et laboris aut aspexerat fugiat. Ipsa amet quoddam colebatur propter:</p>
+                <form class="form-wrapper" method="post" onsubmit="">
+                    <div class="form-row">
+                        <label>Name</label>
+                        <input class="control-input error" type="text" value="" placeholder="Kies een beschikbare datum" />
+                        <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+                    </div>
+                    <div class="form-row">
+                        <label>E-mailadres</label>
+                        <input class="control-input" type="text" value="" placeholder="Kies een beschikbare datum" />
+                        <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+                    </div>
+                    <div class="form-row">
+                        <label>Telefoonnummer</label>
+                        <input class="control-input" type="text" value="" placeholder="Kies een beschikbare datum" />
+                        <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+                    </div>
+                    <div class="form-row">
+                        <label>Aantal personen</label>
+                        <input class="control-input" type="text" value="" placeholder="Kies een beschikbare datum" />
+                        <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+                    </div>
+                    <div class="form-row">
+                        <label>Datum</label>
+                        <input class="control-input control-input-date" type="text" value="" placeholder="Kies een beschikbare datum" />
+                        <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+                    </div>
+                    <div class="form-row">
+                        <label>Tijdstip</label>
+                        <input class="control-input" type="text" value="" placeholder="Kies een beschikbare datum" />
+                        <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+                    </div>
+                    <div class="form-row">
+                        <button class="btn">Boek een rondleiding</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="block-book" style="background-image: url(../assets/images/contact/block-book-bg.jpg)">
+            <div class="global-width-02">
+                <div class="block-contens block-contens-white">
+                    <h3 class="title">Reserveer een tafel</h3>
+                    <div class="one-half">
+                        <div class="block-contens-list2">
+                            <dl class="item">
+                                <dt>Reserveer een tafel</dt>
+                                <dd>Het is mogelijk om telefonisch (0294 123 456) of via deze website te reserveren, maar gewoon binnen wandelen mag natuurlijk ook.</dd>  
+                            </dl>
+                        </div>
+                        <div class="block-contens-list2">
+                            <dl class="one-third item">
+                                <dt>Bezoekadres</dt>
+                                <dd>Straatnaam 12 1789 AA Weesp</dd> 
+                                <dd>E. <a href="##">info@wispe.nl</a></dd>
+                                <dd>T. 0294 123 456</dd>  
+                            </dl>
+                            <dl class="one-half item">
+                                <dt>Openingstijden</dt>
+                                <dd><span>Ma</span>Gesloten</dd> 
+                                <dd><span>Di - Do</span>09:00 t/m 18:00</dd>
+                                <dd><span>Vr - Za</span>09:00 t/m 23:00</dd>
+                                <dd><span>Zo</span>12:00 t/m 22:00</dd>  
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="one-half">
+                        <form class="form-wrapper" method="post" onsubmit="">
+                            <div class="form-row">
+                                <label>Label</label>
+                                <div class="control-select error" data-control-select>
+                                    <div class="select-head">
+                                        <input type="text" value="" placeholder="Label tekst">
+                                    </div>
+                                    <div class="select-list">
+                                        <ul>
+                                            <li>01</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div> 
+                            </div>
+                            <div class="form-row">
+                                <label>Label</label>
+                                <input class="control-input" type="text" value="" placeholder="Label tekst">
+                                <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+                            </div>
+                            <div class="form-row">
+                                <button class="btn btn-white">versturen</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block-commit-message" style="background-image:url(../assets/images/contact/block-commit-message-bg.jpg)">
+            <div class="block-contens block-contens-white">
+                <h3 class="title">Een berichtje...</h3>
+                <p>Heb je vragen over het bier of de website, laat het de broers weten.</p>
+                <form class="form-wrapper" method="post" onsubmit="">
+                    <div class="form-row">
+                        <label for="name">Naam</label>
+                        <input id="name" class="control-input error" type="text" value="" placeholder="Vul hier je naam in">
+                        <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+                    </div>
+                    <div class="form-row">
+                        <label for="tel">Telefoonnummer</label>
+                        <input id="tel" class="control-input" type="text" value="" placeholder="Vul hier je telefoonnummer in">
+                        <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">E-mailadres</label>
+                        <input id="email" class="control-input" type="text" value="" placeholder="Vul hier je e-mailadres in">
+                        <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Opmerkingen</label>
+                        <textarea class="control-textarea error" rows="5"></textarea>
+                        <div class="tips-error"><span>Helaas, je bent te jong om deze website te bezoeken.</span></div>
+                    </div>
+                    <div class="form-row">
+                        <button class="btn btn-white">versturen</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="block-faq">
+            <div class="block-contens">
+                <h3 class="title">Vragen</h3>
+                <div class="faq-list" data-faq-list>
+                    <dl class="item">
+                        <dt><a href="javascript:;">Wat voor bier is Wispe en wat is het verhaal?</a></dt>
+                        <dd>
+                            Wispe is een bier tussen de pilsners en speciaalbieren in. Het wordt ambachtelijke gebrouwen volgens eigen(tijdse) recepten. We maken daarbij uitsluitend gebruik van de beste biologische ingrediënten. De bieren hebben een geheel eigen karakter, oordeel zelf en maak kennis met Wispe.
+                        </dd>
+                    </dl>
+                    <dl class="item">
+                        <dt><a href="javascript:;">Het verhaal achter Wispe, de broers en het bier, kunt u hier lezen.</a></dt>
+                        <dd>
+                            Wispe is een bier tussen de pilsners en speciaalbieren in. Het wordt ambachtelijke gebrouwen volgens eigen(tijdse) recepten. We maken daarbij uitsluitend gebruik van de beste biologische ingrediënten. De bieren hebben een geheel eigen karakter, oordeel zelf en maak kennis met Wispe.
+                        </dd>
+                    </dl>
+                    <dl class="item">
+                        <dt><a href="javascript:;">Waar kan ik Wispe kopen?</a></dt>
+                        <dd>
+                            Wispe is een bier tussen de pilsners en speciaalbieren in. Het wordt ambachtelijke gebrouwen volgens eigen(tijdse) recepten. We maken daarbij uitsluitend gebruik van de beste biologische ingrediënten. De bieren hebben een geheel eigen karakter, oordeel zelf en maak kennis met Wispe.
+                        </dd>
+                    </dl>
+                    <dl class="item">
+                        <dt><a href="javascript:;">Hoe kan ik als horeca of slijterij Wispe bestellen?</a></dt>
+                        <dd>
+                            Wispe is een bier tussen de pilsners en speciaalbieren in. Het wordt ambachtelijke gebrouwen volgens eigen(tijdse) recepten. We maken daarbij uitsluitend gebruik van de beste biologische ingrediënten. De bieren hebben een geheel eigen karakter, oordeel zelf en maak kennis met Wispe.
+                        </dd>
+                    </dl>
+                    <dl class="item">
+                        <dt><a href="javascript:;">Heeft Wispe promotiemateriaal?</a></dt>
+                        <dd>
+                            Wispe is een bier tussen de pilsners en speciaalbieren in. Het wordt ambachtelijke gebrouwen volgens eigen(tijdse) recepten. We maken daarbij uitsluitend gebruik van de beste biologische ingrediënten. De bieren hebben een geheel eigen karakter, oordeel zelf en maak kennis met Wispe.
+                        </dd>
+                    </dl>
+                    <dl class="item">
+                        <dt><a href="javascript:;">Ik ben van de pers en wil graag meer informatie?</a></dt>
+                        <dd>
+                            Wispe is een bier tussen de pilsners en speciaalbieren in. Het wordt ambachtelijke gebrouwen volgens eigen(tijdse) recepten. We maken daarbij uitsluitend gebruik van de beste biologische ingrediënten. De bieren hebben een geheel eigen karakter, oordeel zelf en maak kennis met Wispe.
+                        </dd>
+                    </dl>
+                    <dl class="item">
+                        <dt><a href="javascript:;">Wat zijn de contact en zakelijke gegevens van Wispe?</a></dt>
+                        <dd>
+                            Wispe is een bier tussen de pilsners en speciaalbieren in. Het wordt ambachtelijke gebrouwen volgens eigen(tijdse) recepten. We maken daarbij uitsluitend gebruik van de beste biologische ingrediënten. De bieren hebben een geheel eigen karakter, oordeel zelf en maak kennis met Wispe.
+                        </dd>
+                    </dl>
+                    <dl class="item">
+                        <dt><a href="javascript:;">Waar vind ik de Leverings- en Inkoopvoorwaarden van Wispe?</a></dt>
+                        <dd>
+                            Wispe is een bier tussen de pilsners en speciaalbieren in. Het wordt ambachtelijke gebrouwen volgens eigen(tijdse) recepten. We maken daarbij uitsluitend gebruik van de beste biologische ingrediënten. De bieren hebben een geheel eigen karakter, oordeel zelf en maak kennis met Wispe.
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--#include file="inc/footer.shtml" -->
+    <!--#include file="inc/foot.shtml" -->
+</body>
+
+</html>

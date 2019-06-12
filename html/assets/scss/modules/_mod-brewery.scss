@@ -1,0 +1,180 @@
+.block-brewery-type{
+	display:table;
+	height:pxToRem(80);
+	width:100%;
+	.item{
+		display: table-cell;
+		width: 25%;
+		height: 100%;
+		padding-top: pxToRem(15);
+		color:$color-white;
+		font-size: pxToRem(16);
+		text-align:center;
+		.title{
+			margin-top: pxToRem(4);
+			font-family: 'opificio';
+			font-size: pxToRem(12);
+			font-weight: normal;
+			letter-spacing: pxToRem(-1);
+		}
+		i{
+			font-size: pxToRem(34);
+		}
+		p{
+			display: none;
+			max-width: pxToRem(248);
+			margin:0 auto;
+		}
+	}
+	.item-water{
+		background:url("images/brewery/type-bg-01.jpg") no-repeat;
+		background-size: cover;
+	}
+	.item-food{
+		background:url("images/brewery/type-bg-02.jpg") no-repeat;
+		background-size: cover;
+	}
+	.item-hop{
+		background:url("images/brewery/type-bg-03.jpg") no-repeat;
+		background-size: cover;
+	}
+	.item-gist{
+		background:url("images/brewery/type-bg-04.jpg") no-repeat;
+		background-size: cover;
+	}
+	@media only screen and (min-width: $width-tablet) {
+		height:pxToRem(320);
+		.item{
+			.title{
+				margin:0 0 pxToRem(4) 0;
+				font-size: pxToRem(24);
+			}
+			i{
+				margin-bottom: 0;
+				font-size: pxToRem(93);
+			}
+			p{
+				display: block;
+			}
+		}
+	}
+}
+.block-process{
+	min-height:pxToRem(920);
+    overflow: hidden;
+    text-align:center;
+	.pic{
+		padding:pxToRem(30) 0;
+		background:#363636;
+		color:$color-white;
+		img{
+			width: pxToRem(165);
+			margin-top: pxToRem(20);
+			max-width: 100%;
+		}
+		.title{
+			font-family: 'opificio';
+			font-size: pxToRem(40);
+			font-weight: normal;
+		    letter-spacing: pxToRem(-1);
+		}
+	}
+	.block-contens-list{
+		padding:pxToRem(45) pxToRem(32);
+	}
+	@media only screen and (min-width: $width-tablet) {
+		.pic{
+			float: left;
+			padding:pxToRem(63) pxToRem(45) pxToRem(63) 0;
+			width: calc(50% - 0.45rem);
+			padding-bottom: 1000px;
+		    margin-bottom: -10000px;
+			text-align: right;
+			img{
+				width: auto;
+				margin-top: pxToRem(40);
+			}
+			.title{
+				font-size: pxToRem(64);
+				letter-spacing: pxToRem(-3);
+			}
+		}
+		.block-contens-list{
+			float: right;
+			width: calc(50% - 0.76rem);
+			padding:pxToRem(116) pxToRem(38) pxToRem(20) pxToRem(38);
+			dl{
+				max-width: pxToRem(410);
+			}
+		}
+	}
+}
+.block-tasting-room{
+	background:url("images/brewery/tasting-room-bg.jpg");
+	background-size: cover;
+	.block-contens{
+		max-width: pxToRem(560);
+		margin:0 auto;
+		padding:pxToRem(35) pxToRem(16);
+	}
+	@media only screen and (min-width: $width-tablet) {
+		min-height:pxToRem(560);
+		.block-contens{
+			padding:pxToRem(60) 0 pxToRem(20) 0;
+		}
+	}
+}
+.service-list{
+	display:table;
+	margin:pxToRem(24) auto 0 auto;
+	a{
+		display: table-cell;
+		padding:0 pxToRem(15);
+		color: #262626;
+		font-size: pxToRem(12);
+		font-family: "FuturaStd-Heavy";
+		text-transform: uppercase;
+		text-align:center;
+		text-decoration: none;
+		i{
+			display: block;
+			margin-bottom: pxToRem(6);
+			font-size: pxToRem(30);
+			&.icon-menu{
+				font-size: pxToRem(29);
+			}
+			&.icon-gallery{
+				font-size: pxToRem(27);
+			}
+		}
+	}
+	@media only screen and (min-width: $width-tablet) {
+		margin:pxToRem(48) auto 0 auto;
+		a{
+			padding:0 pxToRem(30);
+		}
+	}
+}
+.block-winery{
+	background:$color-gray;
+	.block-contens{
+		max-width: pxToRem(580);
+		margin:0 auto;
+		padding:pxToRem(35) pxToRem(16);
+	}
+	@media only screen and (min-width: $width-tablet) {
+		min-height:pxToRem(448);
+		padding:pxToRem(58) 0 pxToRem(20) 0;
+	}
+}
+.block-agenda{
+	padding:pxToRem(35) pxToRem(16);
+	.block-contens,
+	.block-contens-list{
+		max-width: pxToRem(580);
+		margin:0 auto;
+	}
+	@media only screen and (min-width: $width-tablet) {
+		padding:pxToRem(58) 0;
+	}
+}
